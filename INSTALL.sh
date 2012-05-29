@@ -9,4 +9,4 @@ cp sshtroll /usr/bin/
 
 echo ""
 echo ""
-echo "If you received no errors above, SSHTroll 1.0 is now installed. Start it with the 'sshtroll' command."
+echo "If you received no errors above, SSHTroll 1.1 is now installed. Start it with the 'sshtroll' command."

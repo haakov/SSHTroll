@@ -1,2 +1,4 @@
 .*.swp
 PKGBUILD
+*.swp
+*.deb
