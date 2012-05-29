@@ -1,0 +1,14 @@
+#!/bin/sh
+# sshtroll - Launcher for the SSHTroll Python honeypot
+# Author: Håkon Vågsether <hauk142@gmail.com>
+
+ROOT_UID=0
+
+if [ "$UID" == "$ROOT_UID" ] # If user is not root
+then
+	exec "python2.7" "/usr/lib/python2.7/site-packages/sshtroll.py" "$@" &
+	echo "SSHTroll 1.0, running with PID $!"
+else
+	echo "You have to run as root."
+	exit 1
+fi
