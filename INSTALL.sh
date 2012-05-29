@@ -8,5 +8,5 @@ mkdir -p /usr/bin
 cp sshtroll /usr/bin/
 
 echo ""
-echo""
+echo ""
 echo "If you received no errors above, SSHTroll 1.0 is now installed. Start it with the 'sshtroll' command."
