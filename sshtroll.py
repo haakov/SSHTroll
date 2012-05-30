@@ -1,5 +1,4 @@
 # sshtroll.py - Tiny SSH Python honeypot
-# Author: Håkon Vågsether <hauk142@gmail.com>
 
 import socket
 from time import strftime
