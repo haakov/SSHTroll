@@ -2,10 +2,9 @@
 # INSTALL.sh - Installer for the SSHTroll Python honeypot
 # Author: Håkon Vågsether <hauk142@gmail.com>
 
-mkdir -p /usr/lib/python2.7/site-packages
-cp sshtroll.py /usr/lib/python2.7/site-packages/
-mkdir -p /usr/bin
-cp sshtroll /usr/bin/
+touch /var/log/sshtroll.log
+install -D sshtroll.py /usr/lib/python2.7/site-packages/
+install -D sshtroll /usr/bin
 
 echo ""
 echo ""
