@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # sshtroll - Launcher for the SSHTroll Python honeypot
 # Author: Håkon Vågsether <hauk142@gmail.com>
 
